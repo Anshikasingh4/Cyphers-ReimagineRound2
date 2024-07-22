@@ -1277,6 +1277,7 @@ footer h1 {
   }
   
   .page6Center video {
+    pointer-events: none;
     height: 100%;
     width: 100%;
     object-fit: cover;
