@@ -37,13 +37,13 @@ body {
 }
 
 .page1 {
-  pointer-events: none;
   position: relative;
   min-height: 100vh;
   width: 100%;
 }
 
 .page1 video {
+  pointer-events: none;
   height: 100%;
   width: 100%;
   object-fit: cover;
