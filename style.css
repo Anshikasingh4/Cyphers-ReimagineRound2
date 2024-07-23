@@ -529,28 +529,6 @@ nav .btn {
   object-fit: cover;
 }
 
-.part2 h2 {
-  font-size: 1.5vw;
-  height: 100%;
-  width: 100%;
-  top: -421px;
-  left: 0;
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.619);
-  display: flex;
-  opacity: 0;
-  transition: 0.6s;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 4vw 0;
-}
-
-.part2 h2:hover {
-  opacity: 1;
-  cursor: pointer;
-}
-
 .page5 .part3 {
   padding: 1.5vw;
   display: flex;
