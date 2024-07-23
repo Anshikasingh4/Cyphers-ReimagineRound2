@@ -519,8 +519,8 @@ nav .btn {
 }
 
 .page5 .part2 {
-  height: 40vh;
-  width: 20vw;
+  height: 60vh;
+  width: 40vw;
 }
 
 .page5 .part2 img {
@@ -533,7 +533,7 @@ nav .btn {
   font-size: 1.5vw;
   height: 100%;
   width: 100%;
-  top: -282px;
+  top: -421px;
   left: 0;
   position: relative;
   background-color: rgba(0, 0, 0, 0.619);
@@ -563,8 +563,8 @@ nav .btn {
 }
 
 .smilegirl {
-  height: 30vh;
-  width: 70%;
+  height: 40vh;
+  width: 80%;
   position: relative;
 }
 
@@ -603,8 +603,8 @@ nav .btn {
   left: 0;
   bottom: 10%;
   position: absolute;
-  height: 20vh;
-  width: 60%;
+  height: 30vh;
+  width: 70%;
 }
 
 .dance img {
@@ -636,9 +636,9 @@ nav .btn {
 }
 
 .hike {
-  margin-left: 10vw;
-  height: 20vh;
-  width: 55%;
+  margin-left: 9vw;
+  height: 40vh;
+  width: 70%;
 }
 
 .hike img {
@@ -670,8 +670,8 @@ nav .btn {
 }
 
 .cricketer {
-  height: 30vh;
-  width: 60%;
+  height: 40vh;
+  width: 80%;
 }
 
 .cricketer img {
