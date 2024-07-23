@@ -755,7 +755,9 @@ footer h1 {
   width: 100%;
   /* background-color: red; */
 }
-
+.floatcan, .animatedRuby, .animatedYello, .tagline{
+  display: none;
+}
 .string {
   height: 30vh;
   width: 70vw;
@@ -1390,6 +1392,67 @@ footer h1 {
     font-family: rainbow;
     font-weight: 100;
   }
-  
-
+  .floatcan, .animatedRuby, .animatedYellow,.tagline{
+    display:inline;
+  }
+  .tagline{
+    gap: 5px;
+    position: absolute;
+    top: 20%;
+    height: 20vh;
+    width: 100%;
+    bottom: 20%;
+    display: flex;
+    align-items: end;
+  }
+  .tagline h3{
+    opacity: .9;
+    font-weight: 100;
+    font-family: bull;
+    font-size: 6vw;
+  }
+  .tagline h3 span{
+    color: #f14040;
+    font-size: 6vw;
+    font-family: rainbow;
+  }
+  .floatcan{
+    padding: 3vw 0;
+    position: absolute;
+    display: inline-block;
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid gray;
+    justify-content: center;
+    gap: 5px;
+  }
+  .animatedRuby{
+    height: 100%;
+    z-index: 11;
+    rotate: 5deg;
+    animation-name: rubyss;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+  }
+  .animatedYellow{
+    animation-name: rubyss;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    height: 100%;
+    rotate: -10deg;
+  }
+  @keyframes rubyss {
+    from{
+        transform: translateY(-1%);
+    }
+    to{
+        transform: translateY(3%);
+    }
+}
 }
