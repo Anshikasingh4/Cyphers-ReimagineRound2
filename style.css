@@ -1403,6 +1403,7 @@ footer h1 {
     width: 100%;
     bottom: 20%;
     display: flex;
+    justify-content: center;
     align-items: end;
   }
   .tagline h3{
