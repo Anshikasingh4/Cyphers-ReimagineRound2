@@ -265,7 +265,7 @@ function Customcursor() {
   var main = document.querySelector(".main");
   var cursor = document.querySelector(".cursor");
   var red = document.querySelector(".red,.red img ");
-  var blue = document.querySelector(".blue,.canwrapper img ");
+  var blue = document.querySelector(".blue,.blue img ");
   var yellow = document.querySelector(".yellow,.yellow img ");
   main.addEventListener("mousemove", function (dets) {
     gsap.to(cursor, {
